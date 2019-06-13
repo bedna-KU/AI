@@ -7,3 +7,9 @@ YOLO https://medium.com/diaryofawannapreneur/yolo-you-only-look-once-for-object-
 ## Online test TensorFlow 2.0
 
 https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/r2/tutorials/quickstart/beginner.ipynb#scrollTo=0trJmd6DjqBZ
+
+## Developers
+
+Adrian Rosebrock
+https://github.com/jrosebr1
+https://www.pyimagesearch.com/
