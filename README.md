@@ -1,6 +1,10 @@
 # AI
 My notes about AI
 
+## YOLO
+
+YOLO object detection with OpenCV https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/
+
 ## Keras
 
 Keras Mask R-CNN https://www.pyimagesearch.com/2019/06/10/keras-mask-r-cnn/
