@@ -5,6 +5,8 @@ My notes about AI
 
 YOLO object detection with OpenCV https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/
 
+YOLO — ‘You only look once’ for Object Detection explained https://medium.com/diaryofawannapreneur/yolo-you-only-look-once-for-object-detection-explained-6f80ea7aaa1e
+
 ## Keras
 
 Keras Mask R-CNN https://www.pyimagesearch.com/2019/06/10/keras-mask-r-cnn/
@@ -14,8 +16,6 @@ Keras Mask R-CNN https://www.pyimagesearch.com/2019/06/10/keras-mask-r-cnn/
 Object tracking with dlib https://www.pyimagesearch.com/2018/10/22/object-tracking-with-dlib/
 
 ## Real-Time Object Detection
-
-YOLO https://medium.com/diaryofawannapreneur/yolo-you-only-look-once-for-object-detection-explained-6f80ea7aaa1e
 
 Liveness Detection with OpenCV https://www.pyimagesearch.com/2019/03/11/liveness-detection-with-opencv/
 
