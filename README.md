@@ -1,6 +1,12 @@
 # AI
 My notes about AI
 
+## Face detector
+
+https://towardsdatascience.com/whats-the-difference-between-haar-feature-classifiers-and-convolutional-neural-networks-ce6828343aeb
+
+https://github.com/ipazc/mtcnn
+
 ## YOLO
 
 YOLO object detection with OpenCV https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/
