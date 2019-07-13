@@ -1,0 +1,4 @@
+download yolov3.weights
+from https://pjreddie.com/darknet/yolo/
+to yolo-coco
+
