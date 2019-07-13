@@ -45,3 +45,18 @@ Building a Raspberry Pi security camera with OpenCV https://www.pyimagesearch.co
 
 Adrian Rosebrock
 
+## Additional
+
+### Install TensorFlow over conda
+
+conda install tensorflow
+
+### Install Conda pre Debian like distro
+
+curl https://repo.anaconda.com/pkgs/misc/gpgkeys/anaconda.asc | gpg --dearmor > conda.gpg
+
+install -o root -g root -m 644 conda.gpg /etc/apt/trusted.gpg.d/
+
+echo "deb [arch=amd64] https://repo.anaconda.com/pkgs/misc/debrepo/conda stable main" > /etc/apt/sources.list.d/conda.list
+
+apt install conda
