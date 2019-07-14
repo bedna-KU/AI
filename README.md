@@ -1,6 +1,8 @@
 # AI
 My notes about AI
 
+# Codes
+
 ## Face detector
 
 What’s the Difference Between Haar-Feature Classifiers and Convolutional Neural Networks? https://towardsdatascience.com/whats-the-difference-between-haar-feature-classifiers-and-convolutional-neural-networks-ce6828343aeb
@@ -31,29 +33,39 @@ https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/r2/
 
 Beginner’s Guide to Retrain GPT-2 (117M) to Generate Custom Text Content https://medium.com/@ngwaifoong92/beginners-guide-to-retrain-gpt-2-117m-to-generate-custom-text-content-8bb5363d8b7f
 
-## Interesting
+#
+
+# Interesting
 
 Detecting Parkinson’s Disease with OpenCV, Computer Vision, and the Spiral/Wave Test https://www.pyimagesearch.com/2019/04/29/detecting-parkinsons-disease-with-opencv-computer-vision-and-the-spiral-wave-test/
 
-## Streaming video
+# Streaming video
 
 Live video streaming over network with OpenCV and ImageZMQ https://www.pyimagesearch.com/2019/04/15/live-video-streaming-over-network-with-opencv-and-imagezmq/
 
-## HW Rpi ...
+# Datasets
+
+Coco datataset for object detection 91 categories http://cocodataset.org/#home
+
+# HW
+
+## Rpi ...
 
 Building a Raspberry Pi security camera with OpenCV https://www.pyimagesearch.com/2019/03/25/building-a-raspberry-pi-security-camera-with-opencv/
 
-## Developers
+# Developers
 
 Adrian Rosebrock
 
-## Additional
+# Additional
+
+## Instalation & compiling
 
 ### Install TensorFlow over conda
 
 conda install tensorflow
 
-### Install Conda pre Debian like distro
+### Install Conda for Debian like distro
 
 curl https://repo.anaconda.com/pkgs/misc/gpgkeys/anaconda.asc | gpg --dearmor > conda.gpg
 
