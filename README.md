@@ -111,11 +111,11 @@ apt install conda
 
 # Auxiliary functions
 
-### Convert video to frames (3frames per second)
+### Convert video to images (3frames per second)
 
 ffmpeg -i video.mp4 -r 3 -f image2 image-%3d.jpeg
 
-### Resize video
+### Resize video (to 1600x1200)
 
 ffmpeg -i truck_front.ogv -vf scale=1600:1200 truck_front.avi
 
