@@ -74,3 +74,13 @@ install -o root -g root -m 644 conda.gpg /etc/apt/trusted.gpg.d/
 echo "deb [arch=amd64] https://repo.anaconda.com/pkgs/misc/debrepo/conda stable main" > /etc/apt/sources.list.d/conda.list
 
 apt install conda
+
+## Auxiliary functions
+
+### Convert video to frames
+
+ffmpeg -i video.mp4 -r 3 -f image2 image-%3d.jpeg
+
+### Resize images (no aspect ratio)
+
+onvert tmp/IMG_4408.jpg -resize 224x224\! tmp/IMG_4408_res.jpg
