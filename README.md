@@ -75,7 +75,7 @@ echo "deb [arch=amd64] https://repo.anaconda.com/pkgs/misc/debrepo/conda stable 
 
 apt install conda
 
-## Auxiliary functions
+# Auxiliary functions
 
 ### Convert video to frames
 
