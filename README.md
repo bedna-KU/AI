@@ -83,4 +83,4 @@ ffmpeg -i video.mp4 -r 3 -f image2 image-%3d.jpeg
 
 ### Resize images (no aspect ratio)
 
-onvert tmp/IMG_4408.jpg -resize 224x224\! tmp/IMG_4408_res.jpg
+onvert image.jpg -resize 224x224\! image_res.jpg
