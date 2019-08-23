@@ -1,7 +1,29 @@
 # AI
 My notes about AI
 
-# Codes
+# Neural Netorks
+
+darknet https://pjreddie.com/darknet/
+
+# Articles
+
+21 Must-Know Open Source Tools for Machine Learning you Probably Aren’t Using (but should!) https://www.analyticsvidhya.com/blog/2019/07/21-open-source-machine-learning-tools/
+
+Turning a MacBook into a Touchscreen with $1 of Hardware https://www.anishathalye.com/2018/04/03/macbook-touchscreen/?fbclid=IwAR05JSy6XJcPNjBxR0IiNEGB7_tAuf0Z1bTQnDI2QR7oa2N218agjYc1bYE
+
+Image classification with Keras and deep learning https://www.pyimagesearch.com/2017/12/11/image-classification-with-keras-and-deep-learning/
+
+Python | Image Classification using keras https://www.geeksforgeeks.org/python-image-classification-using-keras/
+
+How to Perform Object Detection With YOLOv3 in Keras https://machinelearningmastery.com/how-to-perform-object-detection-with-yolov3-in-keras/
+
+Detection Objects in a webcam image stream https://github.com/TannerGilbert/Tutorials/blob/master/Tensorflow%20Object%20Detection/detect_object_in_webcam_video.ipynb
+
+Near Real Time CPU Face detection using deep learning https://github.com/iitzco/faced
+
+Building powerful image classification models using very little data https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
+
+Simple Image Classification using Convolutional Neural Network — Deep Learning in python. https://becominghuman.ai/building-an-image-classifier-using-deep-learning-in-python-totally-from-a-beginners-perspective-be8dbaf22dd8
 
 ## Face detector
 
@@ -11,6 +33,8 @@ https://github.com/ipazc/mtcnn
 
 ## YOLO
 
+Live Object Detection https://towardsdatascience.com/live-object-detection-26cd50cceffd
+
 YOLO object detection with OpenCV https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/
 
 YOLO — ‘You only look once’ for Object Detection explained https://medium.com/diaryofawannapreneur/yolo-you-only-look-once-for-object-detection-explained-6f80ea7aaa1e
@@ -19,21 +43,15 @@ YOLO — ‘You only look once’ for Object Detection explained https://med
 
 Keras Mask R-CNN https://www.pyimagesearch.com/2019/06/10/keras-mask-r-cnn/
 
-## Dlib
-
-Object tracking with dlib https://www.pyimagesearch.com/2018/10/22/object-tracking-with-dlib/
+Training and Detecting Objects with YOLO3 https://github.com/jbrownlee/keras-yolo3
 
 ## Real-Time Object Detection
 
-Liveness Detection with OpenCV https://www.pyimagesearch.com/2019/03/11/liveness-detection-with-opencv/
+## 
 
-## Online test TensorFlow 2.0
+## Online test Python code
 
-https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/r2/tutorials/quickstart/beginner.ipynb#scrollTo=0trJmd6DjqBZ
-
-Beginner’s Guide to Retrain GPT-2 (117M) to Generate Custom Text Content https://medium.com/@ngwaifoong92/beginners-guide-to-retrain-gpt-2-117m-to-generate-custom-text-content-8bb5363d8b7f
-
-#
+https://colab.research.google.com
 
 # Interesting
 
@@ -47,6 +65,12 @@ Live video streaming over network with OpenCV and ImageZMQ https://www.pyimagese
 
 Coco datataset for object detection 91 categories http://cocodataset.org/#home
 
+Internet Archive https://archive.org/about/
+
+# Pretrained models
+
+VGG-16 Pre-trained Model for Keras https://www.kaggle.com/keras/vgg16
+
 # HW
 
 ## Rpi ...
@@ -55,7 +79,17 @@ Building a Raspberry Pi security camera with OpenCV https://www.pyimagesearch.co
 
 # Developers
 
-Adrian Rosebrock
+https://github.com/Tony607
+
+https://github.com/anujshah1003
+
+https://github.com/ipazc
+
+https://github.com/pjreddie
+
+https://machinelearningmastery.com/about/
+
+https://github.com/TannerGilbert
 
 # Additional
 
@@ -77,10 +111,14 @@ apt install conda
 
 # Auxiliary functions
 
-### Convert video to frames
+### Convert video to frames (3frames per second)
 
 ffmpeg -i video.mp4 -r 3 -f image2 image-%3d.jpeg
 
+### Resize video
+
+ffmpeg -i truck_front.ogv -vf scale=1600:1200 truck_front.avi
+
 ### Resize images (no aspect ratio)
 
-onvert image.jpg -resize 224x224\! image_res.jpg
+convert '*.jpg[224x224!]' resized%03d.png
