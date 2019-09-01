@@ -117,11 +117,15 @@ ffmpeg -i video.mp4 -r 3 -f image2 image-%3d.jpeg
 
 ### Resize video (to 1600x1200)
 
-ffmpeg -i truck_front.ogv -vf scale=1600:1200 truck_front.avi
+ffmpeg -i input.ogv -vf scale=1600:1200 output.avi
 
 ### Video to half speed
 
 ffmpeg -i input.mkv -filter:v "setpts=2*PTS" output.mkv
+
+## Video - remove noise
+
+ffmpeg -i <input_file> -af "highpass=f=200, lowpass=f=3000" <output_file>
 
 ### Resize images (no aspect ratio)
 
