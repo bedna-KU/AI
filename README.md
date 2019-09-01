@@ -123,9 +123,13 @@ ffmpeg -i input.ogv -vf scale=1600:1200 output.avi
 
 ffmpeg -i input.mkv -filter:v "setpts=2*PTS" output.mkv
 
-## Video - remove noise
+## Video - remove audio
 
-ffmpeg -i <input_file> -af "highpass=f=200, lowpass=f=3000" <output_file>
+ffmpeg -i video.mkv -c copy -an video_no_sound.mkv
+
+## Video - add audio
+
+ffmpeg -i video.mkv -i audio.mp3 -codec copy -shortest output.mkv
 
 ### Resize images (no aspect ratio)
 
