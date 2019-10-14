@@ -131,6 +131,10 @@ ffmpeg -i video.mkv -c copy -an video_no_sound.mkv
 
 ffmpeg -i video.mkv -i audio.mp3 -codec copy -shortest output.mkv
 
+## Video - cut (from position - length)
+
+ffmpeg -ss 00:00:30 -i orginalfile -t 00:00:05 -vcodec copy -acodec copy newfile
+
 ### Resize images (no aspect ratio)
 
 convert '*.jpg[224x224!]' resized%03d.png
